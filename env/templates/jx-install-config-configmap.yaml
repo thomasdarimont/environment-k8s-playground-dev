@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQJaJVNSOiEkIHbq52mBnyDDANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ1NTUwNjFiYi1hYTVmLTRiYjYtOWE5My02ZWI4ZmYzODhjYTgw
+    HhcNMTkwODA4MTU0NzEyWhcNMjQwODA2MTY0NzEyWjAvMS0wKwYDVQQDEyQ1NTUw
+    NjFiYi1hYTVmLTRiYjYtOWE5My02ZWI4ZmYzODhjYTgwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQC/p+jGQpHow63a1yZ6HGwNicsGkg5ty2aBC49JAI+0
+    tpl7wNYNwGYLRJc0Uu0lDNQFW0uzP0l3nTQj/V/m+qLnwjbqBntBaBSAioSOKaQj
+    5npgy54NdsGuTQYppf6EEn5g6lN9g/HVHUWA8bEFWR9891JWgJY5os9vJqnAlcko
+    ZBgi9sMFwE8dKXqJbO8FXlPVq0cncBoxCJ2+Sw3S1y54EzXJC0Ttsq/vMKu1aAm/
+    FwJfhGiVWjJ4Oi8YN6hKJ6YzCh6kjQYVeKXlqPNbScI0gzrvMTAYQv+BVxmvfJEI
+    UvEvwFb3P7pbC+FRW6uuiu4yv6FyJdq8ECTG0yioXt19AgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAr
+    ReQhmA6GdS7jNR7+mSf8xRmIBzEVZWC7xFMMP9JGVWxBmix4hNb57IG0yRLqh2aA
+    Tl8fgmXaktlwnLyPbVr0HFkgJAlTpIFCWpBJZHiQn1ytW+PNU+fnSO5MASoejN3p
+    BYBtpe3+VfTIOiT5PDfsUSk4+AMefdxjIMYHPlfG9RKlf7coZhDD6STY0AnJ326Q
+    npf/EsFJAUDYogSvCreMIz2nrGZo3YucJ3+OekmT8mQw6//+aCzOPeBFeKo8FZaP
+    0yvQiARuBx6UML5kI+vDIgnl4xfsSaTkOAN7tfeV46Xb2weW0YmkgtmUUqlH0ft5
+    KGHB+cU1Y5fAzPLJzEGj
+    -----END CERTIFICATE-----
+  clusterName: k8s-playground
+  jx-install-version: 2.0.571
+  kubeProvider: gke
+  projectID: k8s-training-249216
+  region: ""
+  secretsLocation: vault
+  server: https://35.246.216.210
+  systemVaultName: jx-vault-k8s-playgroun
+  zone: europe-west3-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
